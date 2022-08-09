@@ -78,6 +78,7 @@ $light-beige: #E1D5B8;
 
 html {
     background-color: $background-gray;
+    margin: 0;
 }
 
 * {
@@ -179,6 +180,8 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 10px;
     font-weight: bold;
     transition: 0.4s;
+    margin: 0;
+    list-style: none;
   }
   
   nav li {
@@ -395,6 +398,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 0 0 0px;
     border-radius: 0 10px 10px 0;
     padding: 10px 5px 0 0;
+    align-self: flex-start;
   }
   .work-label {
     margin: 10px 10px 0 10px;

@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import MyWork from './components/MyWork';
@@ -9,9 +8,9 @@ function App() {
     <div className="App">
 
       <Header />
-      {/* <Hero /> */}
+      <Hero />
       <MyWork />
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   );

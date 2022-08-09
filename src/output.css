@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #my-name {
   color: rgb(0, 0, 0);
-  padding: 8px 20px 0px 80px;
+  padding: 0px 20px 0px 80px;
   transition: 0.4s;
   font-size: 400%;
   margin: 0;
@@ -102,6 +102,8 @@ nav {
   margin-right: 10px;
   font-weight: bold;
   transition: 0.4s;
+  margin: 0;
+  list-style: none;
 }
 
 nav li {
@@ -333,6 +335,7 @@ nav li {
   margin: 0 0 0 0px;
   border-radius: 0 10px 10px 0;
   padding: 10px 5px 0 0;
+  align-self: flex-start;
 }
 
 .work-label {
