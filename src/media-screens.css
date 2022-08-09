@@ -1,0 +1,425 @@
+@media screen and (max-width: 1280px) {
+    #hero-text-div {
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #hero {
+        height: 650px;
+        display: block;
+    }
+    #hero-image {
+        width: 100%;
+        margin: 76px 0 0 0;
+    }
+    #hero-div {
+        top: 540px;
+    }
+    #self-portrait {
+        width: 270px;
+        height: 270px;
+        object-fit: cover;
+        border: 3px solid var(--gray);
+        margin: 0 5px;
+    }
+    #about-me article {
+        background-color: var(--background-black);
+        height: 550px;
+        width: 75%;
+        margin: 0 5px;
+    }
+    #header {
+        padding: 0 10px 0 0;
+        height: 74px;
+        background-color: var(--card-background);
+    }
+    #my-name-label-border {
+        height: 38px;
+        margin: 20px 0 0 0;
+        width: 233px;
+    }
+    #my-name-label {
+        height: 35px;
+        width: 230px;
+    }
+    #my-name {
+        font-size: 200%;
+        padding: 5px 20px 0 40px;
+        width: 160px;
+        margin: 0 0 5px 0;
+    }
+    #nav-ul {
+        font-size: 140%;
+    }
+    #nav-about {
+        padding: 30px 25px 5px 25px;
+    }
+    #nav-work {
+        padding: 30px 25px 5px 25px;
+    }
+    #nav-contact {
+        padding: 30px 25px 5px 25px;
+    }
+    .work-card-bot {
+        width: 80%;
+        margin: 0 0 20px 5%;
+    }
+    .work-card-large {
+        width: 80%;
+        margin: 0 0 20px 5%;
+    }
+    .work-card {
+        width: 80%;
+        margin: 0 0 20px 5%;
+    }
+}
+
+@media screen and (max-width: 824px) {
+    #hero-div {
+        top: 420px;
+    }
+    #hero-text-div {
+        width: 550px;
+        padding: 20px 50px;
+    }
+    .work-card-bot {
+        width: 90%;
+        margin: 0 0 20px 5%;
+    }
+    .work-card-large {
+        width: 90%;
+        margin: 0 0 20px 5%;
+    }
+    .work-card {
+        width: 90%;
+        margin: 0 0 20px 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #header {
+        padding: 0 10px 0 0;
+        height: 74px;
+    }
+    #my-name-label-border {
+        height: 38px;
+        margin: 20px 0 0 0;
+        width: 233px;
+    }
+    #my-name-label {
+        height: 35px;
+        width: 230px;
+    }
+    #my-name {
+        font-size: 200%;
+        padding: 5px 20px 0 40px;
+        width: 160px;
+        margin: 0 0 15px 0;
+    }
+    #nav-ul {
+        font-size: 100%;
+        margin: 0 5px;
+    }
+    #nav-about {
+        padding: 30px 15px 5px 15px;
+    }
+    #nav-work {
+        padding: 30px 15px 5px 15px;
+    }
+    #nav-contact {
+        padding: 30px 15px 5px 15px;
+    }
+    #hero-image {
+        margin: 76px 0 0 0;
+    }
+    #about-me-head {
+        margin: 50px 0 20px 5%;
+    }
+    #about-me-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about-me {
+        width: 80%;
+        margin: 0;
+    }
+    #my-work-header {
+        margin: 50px 0 20px 0;
+    }
+    #about-me article {
+        background-color: var(--background-black);
+        width: 90%;
+        height: 480px;
+    }
+    .work-group-label-container {
+        width: 200px;
+        margin: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+    #self-portrait {
+        margin: 10px 0;
+    }
+    #contact-ul {
+        margin: 0 1%;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    #hero {
+        height: 475px;
+    }
+    #hero-div {
+        transform: translateY(-5px);
+    }
+    #hero-text-div {
+        padding: 20px 20px;
+    }
+    #hero-head {
+        font-size: 30px;
+    }
+    #hero-p {
+        font-size: 16px;
+        line-height: 150%;
+        padding-top: 5px;
+    }
+    #about-me-wrap {
+        padding: 100px 0 0 0;
+    }
+    .work-section-container {
+        width: 100%;
+        margin: 40px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .work-group-label-container {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        height: 50px;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+        flex-direction: row;
+    }
+    .work-section-work-container {
+        justify-content: center;
+    }
+    .work-label {
+        font-size: 20px;
+        margin: 0 5px 0 0;
+    }
+    .work-card-bot {
+        width: 80%;
+        min-width: 300px;
+        align-self: center;
+        justify-self: center;
+        margin: 20px 0 0 0;
+    }
+    .work-card-large {
+        width: 80%;
+        min-width: 300px;
+        align-self: center;
+        justify-self: center;
+        margin: 20px 0 0 0;
+    }
+    .work-card {
+        width: 80%;
+        min-width: 300px;
+        align-self: center;
+        margin: 20px 0 0 0;
+    }
+    #my-work-header {
+        margin: 50px 0 20px 0;
+    }
+    #contact-me-header {
+        width: 90%;
+        margin: 50px 0 20px 5%;
+    }
+    #contact-ul {
+        font-size: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
+    }
+    #contact-ul {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    #header {
+        height: 50px;
+    }
+    #my-name-label {
+        height: 25px;
+        width: 160px;
+        padding: 0px 10px 5px 0;
+    }
+    #my-name {
+        font-size: 150%;
+        padding: 5px 20px 0 30px;
+    }
+    #my-name-label-border {
+        height: 30px;
+        margin: 5px 0 20px 0;
+        width: 250px;
+    }
+    #nav-ul {
+        font-size: 85%;
+    }
+    #nav-about {
+        padding: 18px 18px 0 18px;
+    }
+    #nav-work {
+        padding: 18px 18px 0 18px;
+    }
+    #nav-contact {
+        padding: 18px 18px 0 18px;
+    }
+    #nav-ul li:hover {
+        border-style: none;
+    }
+    #hero-image {
+        margin-top: 52px;
+    }
+    #hero-div {
+        transform: translateY(-90px);
+    }
+    #about-me-wrap {
+        padding: 10px 0 0 0;
+    }
+    .hero-div {
+        position: absolute;
+        width: 100%;
+        top: 300px;
+        display: flex;
+        justify-content: flex-end;
+        overflow: overlay;
+    }
+    .hero-text-div {
+        padding: 1% 3%;
+        border-radius: 50px;
+        padding: 0px 30px;
+    }
+    .hero-p {
+        font-size: 120%;
+        align-self: center;
+        line-height: 130%;
+        margin: 0;
+    }
+    #about-me article {
+        height: 500px;
+    }
+    .work-group-label-container {
+        width: 100%;
+        border-radius: 0;
+    }
+    .work-label {
+        font-size: 20px;
+        margin: 0 5px 0 0;
+    }
+    #contact-me {
+        overflow: overlay;
+        width: 100%;
+    }
+    #contact-ul {
+        font-size: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
+    }
+    #tradingview-head {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #hero-head {
+        font-size: 19px;
+    }
+    #hero-p {
+        font-size: 16px;;
+    }
+    #about-me {
+        align-items: flex-start;
+    }
+
+    #contact-ul {
+        margin: 0;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #hero-div {
+        top: 250px;
+    }
+    #hero-p {
+        padding: 0 40px;
+    }
+    #self-portrait {
+        margin: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #hero-div {
+        top: 250px;
+    }
+    #technologies-indicator {
+        padding: 0 5px 15px 10px;
+    }
+    #pine-script-img {
+        margin: 0 10px 10px 0;
+    }
+    #nav-about {
+        padding: 15px 0 0 5px;
+    }
+    #nav-work {
+        padding: 15px 0 0 5px;
+    }
+    #nav-contact {
+        padding: 15px 0 0 5px;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #about-me {
+        height: 800px;
+    }
+    #tradingview-head {
+        font-size: 25px;
+    }
+    #nav-about {
+        font-size: 10px;
+    }
+    #nav-work {
+        font-size: 10px;
+    }
+    #nav-contact {
+        font-size: 10px;
+    }
+}

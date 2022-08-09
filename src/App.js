@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/header';
+import Header from './components/Header';
 import Hero from './components/Hero';
 import MyWork from './components/MyWork';
 import Footer from './components/Footer';
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
 
       <Header />
-      <Hero />
+      {/* <Hero /> */}
       <MyWork />
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   );
